@@ -90,8 +90,15 @@ function playMusic() {
 }
 
 function yesClicked() {
-    window.location.href = "https://wa.me/919819578428?text=Hey%20❤️%20I%20said%20YES%20😊";
+    document.body.innerHTML = `
+        <div style="text-align:center; padding:40px;">
+            <h1>Yayyy! 💖🥰</h1>
+            <p>You just made my heart very happy ❤️</p>
+            <p>Happy Valentine’s Day 🌹</p>
+        </div>
+    `;
 }
+
 
 
 function moveNo() {
